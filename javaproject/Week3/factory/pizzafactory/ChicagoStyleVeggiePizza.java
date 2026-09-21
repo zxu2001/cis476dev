@@ -1,5 +1,7 @@
 
 
+package factory.pizzafactory;
+
 public class ChicagoStyleVeggiePizza extends Pizza {
 	public ChicagoStyleVeggiePizza() {
 		name = "Chicago Deep Dish Veggie Pizza";
@@ -12,7 +14,7 @@ public class ChicagoStyleVeggiePizza extends Pizza {
 		toppings.add("Eggplant");
 	}
  
-	void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }

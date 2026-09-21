@@ -1,3 +1,5 @@
+package singleton;
+
 public class Resource {
     private final int id;
     private final String name;

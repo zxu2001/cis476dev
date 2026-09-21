@@ -1,11 +1,13 @@
 
+package factory.pizzasimple;
+
 import java.util.ArrayList;
 
 abstract public class Pizza {
 	String name;
 	String dough;
 	String sauce;
-	ArrayList toppings = new ArrayList();
+	ArrayList<String> toppings = new ArrayList<>();
 
 	public String getName() {
 		return name;

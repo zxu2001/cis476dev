@@ -1,5 +1,7 @@
 
 
+package factory.pizzafactory;
+
 public class ChicagoStyleClamPizza extends Pizza {
 	public ChicagoStyleClamPizza() {
 		name = "Chicago Style Clam Pizza";
@@ -10,7 +12,7 @@ public class ChicagoStyleClamPizza extends Pizza {
 		toppings.add("Frozen Clams from Chesapeake Bay");
 	}
  
-	void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }

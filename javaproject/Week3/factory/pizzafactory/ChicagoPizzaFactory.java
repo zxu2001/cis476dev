@@ -1,5 +1,7 @@
 
 
+package factory.pizzafactory;
+
 public class ChicagoPizzaFactory extends PizzaFactory {
 
 	Pizza createPizza(String item) {

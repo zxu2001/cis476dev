@@ -1,3 +1,5 @@
+package singleton;
+
 public class TimeSlot {
     private final int startHour;
     private final int endHour;

@@ -1,5 +1,7 @@
 
 
+package factory.pizzafactory;
+
 public class NYStyleCheesePizza extends Pizza {
 
 	public NYStyleCheesePizza() { 
