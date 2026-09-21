@@ -11,7 +11,7 @@ public class PizzaTestDrive {
  
 		pizza = chicagoFactory.orderPizza("cheese");
 		System.out.println("Joel ordered a " + pizza.getName() + "\n");
-
+/*
 		pizza = nyFactory.orderPizza("clam");
 		System.out.println("Ethan ordered a " + pizza.getName() + "\n");
  
@@ -29,5 +29,6 @@ public class PizzaTestDrive {
  
 		pizza = chicagoFactory.orderPizza("veggie");
 		System.out.println("Joel ordered a " + pizza.getName() + "\n");
+		*/
 	}
 }
