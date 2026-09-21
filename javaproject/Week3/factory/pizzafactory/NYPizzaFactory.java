@@ -1,6 +1,6 @@
 
 
-public class NYPizzaStore extends PizzaStore {
+public class NYPizzaFactory extends PizzaFactory {
 
 	Pizza createPizza(String item) {
 		if (item.equals("cheese")) {

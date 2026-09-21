@@ -1,6 +1,6 @@
 
 
-public abstract class PizzaStore {
+public abstract class PizzaFactory {
  
 	abstract Pizza createPizza(String item);
  
