@@ -1,7 +1,7 @@
 {
   "java.project.sourcePaths": [
-    "javaproject/Week4/Builder/Aa",
+    "javaproject/Week4/Builder/VehicleDemo",
     "javaproject/Week3",
-    "javaproject/Week4/Builder/VehicleDemo"
+    "javaproject/Week5/decorator"
   ]
 }
