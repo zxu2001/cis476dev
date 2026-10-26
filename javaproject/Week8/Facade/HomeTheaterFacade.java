@@ -14,9 +14,7 @@ public class HomeTheaterFacade {
     private final Screen screen;
     private final PopcornPopper popper;
 
-    public HomeTheaterFacade(Amplifier amp, Tuner tuner, DvdPlayer dvd,
-            CdPlayer cd, Projector projector, Screen screen,
-            TheaterLights lights, PopcornPopper popper) {
+    public HomeTheaterFacade(Amplifier amp, Tuner tuner, DvdPlayer dvd, CdPlayer cd, Projector projector, Screen screen, TheaterLights lights, PopcornPopper popper) {
         this.amp = amp;
         this.tuner = tuner;
         this.dvd = dvd;
